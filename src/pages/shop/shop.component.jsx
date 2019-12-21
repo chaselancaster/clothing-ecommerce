@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./shop.data.js";
+
 class ShopPage extends React.Component {
   constructor(props) {
     super(props);
