@@ -10,4 +10,8 @@ class ShopPage extends React.Component {
       collections: SHOP_DATA
     };
   }
+
+  reder() {
+    return <div>SHOP PAGE</div>;
+  }
 }
