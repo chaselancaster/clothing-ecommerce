@@ -38,6 +38,7 @@ class SignIn extends React.Component {
             type="email"
             handleChange={this.handleChange}
             value={this.state.email}
+            label="email"
             required
           />
           <label>Email</label>
@@ -46,6 +47,7 @@ class SignIn extends React.Component {
             type="password"
             value={this.state.password}
             handleChange={this.handleChange}
+            label="password"
             required
           />
           <label>Password</label>
