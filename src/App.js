@@ -9,6 +9,14 @@ import Header from "./components/header/header.component";
 import { auth } from './firebase/firebase.utils';
 
 class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      currentUser: null
+    }
+  }
+
   render() {
     return (
       <div>
