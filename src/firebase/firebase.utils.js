@@ -37,10 +37,6 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   }
 
   return userRef;
-
-  console.log(snapShot)
-
-  console.log(firestore.doc('users/128sdksad'));
 }
 
   firebase.initializeApp(config);
